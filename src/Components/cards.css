@@ -1,0 +1,109 @@
+.container-me {
+  max-width: 100%;
+  margin: 12px;
+}
+.card {
+  cursor: pointer;
+  border-bottom: 1px solid #ced5df;
+}
+.effect {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background: rgba(1, 178, 238, 0.9);
+  opacity: 0;
+  transition: all 0.15s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  padding: 18px;
+  font-size: 18px;
+}
+.overlay:hover {
+  opacity: 0.9;
+}
+.p-title {
+  font-size: 15px;
+  font-weight: 300;
+  color: #01b2ee;
+  margin-bottom: 7px;
+  line-height: 1.2;
+  max-height: 40px;
+  overflow: visible;
+}
+.btn-card {
+  color: #01b2ee;
+  border-radius: 5px;
+  vertical-align: middle;
+  border: 2px solid #01b2ee;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #ffff;
+}
+
+.index {
+  height: 8px;
+  width: 96%;
+  color: #fff;
+  background-color: #fff;
+  border: 1px solid #ced5df;
+  border-top: none;
+  position: relative;
+  bottom: -1px;
+}
+.index2 {
+  height: 8px;
+  width: 94%;
+  color: #fff;
+  background-color: #fff;
+  border: 1px solid #ced5df;
+  border-top: none;
+  position: relative;
+  bottom: -1px;
+}
+@media screen and (max-width: 649px) {
+  .continer-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    gap: 12px;
+  }
+  .overlay {
+    height: 72%;
+  }
+}
+@media screen and (min-width: 650px) {
+  .continer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    gap: 12px;
+  }
+  .overlay {
+    height: 75%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .continer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 12px;
+  }
+  .overlay {
+    height: 70%;
+  }
+}

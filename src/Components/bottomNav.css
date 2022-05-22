@@ -1,0 +1,26 @@
+.bottom-nav {
+  display: none;
+  margin-top: 70px;
+}
+.bot-nav {
+  display: none;
+  background-color: #ffff;
+  position: fixed;
+
+  bottom: 0;
+  z-index: 9;
+  width: 100%;
+  align-items: center;
+  height: 4rem;
+  border-top: 1px solid #eaf1f5;
+}
+
+.bot-icon:hover {
+  color: #01b2ee;
+  cursor: pointer;
+}
+@media screen and (max-width: 1087px) {
+  .bottom-nav {
+    display: block;
+  }
+}

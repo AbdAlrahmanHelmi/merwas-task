@@ -1,0 +1,172 @@
+.container-me {
+  max-width: 100%;
+  margin: 12px;
+}
+footer {
+  background-color: #ffff;
+  
+}
+
+.main-footer_heading {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: start;
+  margin: 20px 0px;
+}
+.bi {
+  margin: 6px;
+}
+
+.footer-icons > .bi:hover {
+  fill: #1eb3ec;
+  cursor: pointer;
+}
+.bi.bi-phone {
+  fill: #ffff;
+}
+
+.btn-text {
+  font-weight: 500;
+}
+.btn.btn-primary {
+  color: #ffff;
+  background-color: #01b2ee;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+.btn.btn-primary:hover {
+  background-color: #38bff5;
+}
+.footer-link {
+  padding-top: 6px 0px;
+  font-size: 16px;
+  text-align: start;
+
+  color: #4f5864;
+}
+.footer-link:hover {
+  color: #1eb3ec;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer-input {
+  border: 0;
+  outline: 0;
+
+  margin-left: 10px;
+}
+.footer-input__form {
+  border: 1px solid #aaaaaa;
+  width: auto;
+
+  border-radius: 6px;
+  text-align: start;
+}
+.long-p {
+  padding-top: 6px 0px;
+  font-size: 16px;
+  text-align: start;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f5864;
+
+  color: #4f5864;
+}
+.footer-envelope {
+  fill: #6d6d6e;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.copyright{
+  color: #1eb3ec;
+  cursor: pointer;
+  padding-right: 10px ;
+}
+
+@media screen and (max-width: 399px) {
+  .sm-visible {
+    display: block;
+  }
+  .lg-visible {
+    display: none;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    gap: 2px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .sm-visible {
+    display: block;
+  }
+  .lg-visible {
+    display: none;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .sm-visible {
+    display: block;
+  }
+  .lg-visible {
+    display: none;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2px;
+  }
+}
+@media screen and (min-width: 864px) {
+    .sm-visible {
+      display: block;
+    }
+    .lg-visible {
+      display: none;
+    }
+    .grid-footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+  
+      gap: 2px;
+    }
+  }
+
+
+@media screen and (min-width: 1279px) {
+  .sm-visible {
+    display: block;
+  }
+  .lg-visible {
+    display: none;
+  }
+
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 2px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sm-visible {
+    display: none;
+  }
+  .lg-visible {
+    display: block;
+  }
+ 
+}
