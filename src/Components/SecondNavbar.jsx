@@ -19,40 +19,40 @@ export default function SecondNavbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
                 <h6
-                  class="nav-link  mx-4 nav-second-link"
+                  className="nav-link  mx-4 nav-second-link"
                   aria-current="page"
                   href="#"
                 >
                   What's New
                 </h6>
               </li>
-              <li class="nav-item">
-                <h6 class="nav-link mx-4 nav-second-link" href="#">
+              <li className="nav-item">
+                <h6 className="nav-link mx-4 nav-second-link" href="#">
                   Trending
                 </h6>
               </li>
 
-              <li class="nav-item">
-                <h6 class="nav-link mx-4 nav-second-link">For You</h6>
+              <li className="nav-item">
+                <h6 className="nav-link mx-4 nav-second-link">For You</h6>
               </li>
-              <li class="nav-item">
-                <h6 class="nav-link mx-4 nav-second-link">Shop Products</h6>
+              <li className="nav-item">
+                <h6 className="nav-link mx-4 nav-second-link">Shop Products</h6>
               </li>
             </ul>
-            <form class="d-flex input-search " role="search">
+            <form className="d-flex input-search " role="search">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="bi bi-search move"
+                  className="bi bi-search move"
                   viewBox="0 0 16 16"
                 >
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />

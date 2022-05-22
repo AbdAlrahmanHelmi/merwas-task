@@ -45,7 +45,6 @@ footer {
   padding-top: 6px 0px;
   font-size: 16px;
   text-align: start;
-
   color: #4f5864;
 }
 .footer-link:hover {
@@ -56,13 +55,11 @@ footer {
 .footer-input {
   border: 0;
   outline: 0;
-
   margin-left: 10px;
 }
 .footer-input__form {
   border: 1px solid #aaaaaa;
   width: auto;
-
   border-radius: 6px;
   text-align: start;
 }
